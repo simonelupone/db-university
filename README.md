@@ -73,5 +73,5 @@ Utilizzare https://www.drawio.com/ per la creazione dello schema.
    ```
    SELECT COUNT(*)
    FROM `teachers`
-   WHERE `phone` IS NOT NULL;
+   WHERE `phone` IS NULL;
    ```
