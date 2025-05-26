@@ -63,4 +63,9 @@ Utilizzare https://www.drawio.com/ per la creazione dello schema.
     WHERE `level` = 'magistrale';
     ```
 7. Da quanti dipartimenti è composta l'università? (12)
+
+    ```
+    SELECT COUNT(*)
+    FROM `departments`;
+    ```
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
