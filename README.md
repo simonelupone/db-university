@@ -173,3 +173,8 @@ filtrare i tentativi con voto minimo 18.
   GROUP BY `exam_id`;
   ```
 4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+  ```
+  SELECT COUNT(*) AS `degrees_number`,  `department_id`
+  FROM `degrees`
+  GROUP BY `department_id`;
+  ```
